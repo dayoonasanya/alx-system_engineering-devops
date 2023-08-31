@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:staff *
+find . -type d -exec chmod 755 {} +
